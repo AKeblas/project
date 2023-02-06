@@ -67,3 +67,5 @@ btn[1].onclick =()=>{
         })
 
 }
+
+console.log(linkas)
