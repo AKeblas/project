@@ -1,0 +1,310 @@
+html,body{ scroll-behavior: smooth}
+
+body {
+    margin: 0px;
+    font-family: Helvetica;
+    /*display: flex;*/
+    background-color: #f3f6d9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-btw {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.j-end {
+    justify-content: end;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.p10 {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p50 {
+    padding: 50px;
+}
+
+.p24 {
+    padding: 24px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.w150{
+    width: 150px;
+}
+
+.w100{
+    width: 100px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.ml30 {
+    margin-left: 30px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20{
+    margin-top: 25px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.gapSmall {
+    gap: 20px
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+.hidden{
+    display: none;
+}
+.main {
+    width: 80%;
+    border: 2px solid #ffc9c9;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f8e8e8;
+    border-radius: 25px;
+
+}
+
+/*}*/
+
+input{
+    margin: 20px;
+}
+/*.main2{*/
+/*    width: 1000px;*/
+/*    height: 350px;*/
+/*}*/
+
+.slider{
+   height: 400px;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.pirmas{
+    height: 450px;
+}
+.foto {
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box img {
+
+    width: 100%;
+
+}
+
+.pirmas {
+    width: 300px;
+}
+
+.meme{
+    position: relative;
+    width: 600px;
+
+}
+
+button {
+    margin: 15px;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.memePhoto{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.topText{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+}
+
+.bottomText{
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+
+h2 {
+    font-size: 7vh;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+
+}
+
+
+.box {
+    margin: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.box img {
+    width: 100%;
+}
+.info{
+    padding: 25px;
+}
+
+
+.wrapper {
+    height: 500px;
+
+    width: 20px;
+    border: 1px solid black;
+}
+
+.wrapper div {
+    height: 0;
+    width: 100%;
+    background-color: mediumspringgreen;
+}
+
+.weapons img {
+    height: 100px;
+    width: 100px;
+}
+
+.spanBtn {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.spanBtn:hover {
+    background-color: mediumspringgreen;
+}
+
+
+.male {
+    background-color: blue;
+    height: 25px;
+    width: 100%;
+}
+
+.female {
+    background-color: pink;
+    height: 25px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+
+}
+
+@media screen and (min-width:700px) and (max-width:900px){
+
+}
+
